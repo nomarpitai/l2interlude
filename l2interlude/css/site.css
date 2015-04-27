@@ -1,0 +1,35 @@
+#carousel-example-generic{
+	max-width:1140px;	
+	max-height: 230px;
+}
+
+#carousel-example-generic .item{
+	max-width:1140px;	
+	max-height: 228px;
+}
+
+.blockHeader{
+	background-color: #141F38;
+	background-image: url(../img/bg_but.gif);
+	background-repeat: repeat-x;
+	text-align: center;
+	font-weight: bold;
+	white-space: nowrap;
+	color: #e0d098;
+  	margin: 0;
+  	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  	font-size: 8pt;
+}
+
+.headerLeftDeco{
+	background: transparent url(../img/bg_mbl.gif) no-repeat;
+}
+
+.headerRightDeco{
+	background: transparent url(../img/bg_mbr.gif) no-repeat right top;
+	padding: 3px 12px 2px 20px;
+}
+
+.banner{
+	border: 1px solid #635c3a;
+}
