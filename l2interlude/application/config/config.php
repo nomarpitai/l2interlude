@@ -364,3 +364,4 @@ $config['proxy_ips'] = '';
 /* Location: ./application/config/config.php */
 $config['options_menu'] = array('Inicio', 'Informações', 'Download', 'Castles', 'Olympiad', 'Hero');
 $config['options_menu_link'] = array('inicio', 'informacoes', 'download', 'castles', 'olympiad', 'hero');
+$config['nome_projeto'] = 'L2 Interlude';

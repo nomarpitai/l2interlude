@@ -1,5 +1,8 @@
 <div id="main_head">
-	<?= criaHeaderContainer("Seja muito bem vindo ao L2 Slipper")?>
+	<?php
+		$nomeProjeto = nomeProjeto(); 
+		echo criaHeaderContainer("Seja muito bem vindo ao {$nomeProjeto}");
+	?>
 	<div id="carousel-example-generic" class="carousel slide banner"
 		data-ride="carousel">
 		<ol class="carousel-indicators">

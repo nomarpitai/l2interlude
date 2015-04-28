@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="<?= base_url("css/site.css")?>">
 		<script src="<?= base_url("js/jquery.min.js")?>"></script>
 		<script src="<?= base_url("js/bootstrap.js")?>"></script>
-		<title>Title of the document</title>
+		<title><?= nomeProjeto() ?></title>
 	</head>
 	<body>
 		<div class="container">
