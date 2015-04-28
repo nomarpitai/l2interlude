@@ -33,3 +33,692 @@
 .banner{
 	border: 1px solid #635c3a;
 }
+
+/* ::selection {background: transparent;}*/
+
+a img {  opacity:0.5; -moz-opacity:0.5; filter:alpha(opacity=40);  } 
+a:hover img {  opacity:1.0; -moz-opacity:1.0; filter:alpha(opacity=100) ;} 
+
+P, OL, UL, DL, LI, DD, DT, FORM, TD, TH, BODY, TEXTAREA, INPUT, FONT, DL, DT, DD
+{
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+A, A:link, A:active
+{
+	color: #86A6DE;
+	text-decoration: none;
+}
+
+A:visited
+{
+	color: #5C87D2;
+}
+
+A:hover
+{
+	color: #fff;
+}
+
+A:active, A:focus, INPUT:active, INPUT:focus
+{
+	outline: 0;
+}
+
+TABLE
+{
+	border: 0px;
+	border-collapse: collapse;
+}
+
+IMG
+{
+	border: 0px;
+}
+
+FORM
+{
+	margin: 0px;
+}
+
+H2
+{
+	font-size: 16pt;
+}
+
+H3
+{
+	font-size: 14pt;
+}
+
+H4
+{
+	font-size: 10pt;
+}
+
+H5
+{
+	font-size: 8pt;
+}
+
+SELECT
+{
+	width: 188px;
+}
+
+FIELDSET
+{
+	margin: 0;
+	padding: 1em;
+}
+
+LEGEND
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	margin: 0;
+	padding: 0.5em;
+	background: transparent;
+}
+
+LEGEND, #login SPAN, #error, .blockHeader, .news_header, H1, H2, H3, #copyright, #copyright a
+{
+	color: #e0d098;
+	margin: 0;
+}
+
+INPUT, FIELDSET, TEXTAREA, #navi, .blockContent, .hint, #tooltip, .castle
+{
+	border: 1px solid #635c3a;
+}
+
+TEXTAREA, #tooltip, #answer, input
+{
+	color: #ffffff;
+	background: #000;
+}
+
+a, span input {cursor: url(../img/l2.cur), pointer; }
+
+#navi{
+	background: #141F38;
+	width: 100%;
+	text-align: left;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+}
+
+#navi li a{
+	height: 30px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	text-decoration: none;
+}
+
+#navi li a:link, #navi li a:visited
+{
+	color: #E4D6CD;
+	display: block;
+	background: url(../img/button.gif);
+	padding: 8px 0 0 10px;
+}
+
+#navi li a:hover
+{
+	color: #FFF;
+	background: url(../img/button.gif) 0 -30px;
+	padding: 8px 0 0 10px;
+}
+
+#navi li a:active
+{
+	color: #FFF;
+	background: url(../img/button.gif);
+}
+
+#navi ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#navi ul li{
+	position: relative;
+	z-index: 1;
+	height: 30px;
+}
+
+#navi li ul
+{
+	width: 114px;
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 113px;
+}
+
+#navi li:hover ul, #navi li.over ul
+{
+	display: block;
+}
+
+* html #navi ul li
+{
+	float: left;
+}
+
+body {
+	margin: 0 auto; 
+	padding:0;
+	}
+
+#outer{
+   width: 960px;
+   }
+
+* html #outer {
+   padding-left: 960px;
+   }
+
+* html .minwidth {
+   height:1%;
+   }
+
+* html .container {
+   margin-left: -960px;
+   position: relative;
+   height:0;
+   }
+
+#header
+{
+	background-image: url(../img/header.png);
+	background-repeat: repeat-x;
+	height: 230px;
+	width: 958px;
+	border: 1px solid #635c3a;
+}
+
+#l2top {
+	float: left;
+	padding-top: 1px;
+	padding-left: 1px;
+	width: 100%;
+	height: 33px;
+}
+
+#reminder {
+	padding-left: 5px;
+	text-align: left;
+	color: #E4D6CD;
+}
+
+#lang {
+	float: right;
+	padding-top: 1px;
+	padding-right: 1px;
+}
+
+#footer
+{
+	background-image: url(../img/footer.png);
+	background-repeat: repeat-x;
+	height: 35px;
+	width: 350px;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 8pt;
+}
+
+#main1
+{
+	text-align:left;
+}
+
+#left
+{
+	float: left;
+	width: 150px;
+	padding: 10px 10px 0px 0px;
+}
+
+#right
+{
+	float: right;
+	width: 150px;
+	padding: 10px 0px 0px 10px;
+}
+
+#middle
+{
+	margin: 0 150px;
+	height: 100%;
+	padding: 10px 10px 0px 10px;
+}
+
+#balance
+{
+	position: absolute;
+	top: 281px;
+	right: 11px;
+	width: 128px;
+}
+
+.column-in
+{
+	margin: 0;
+	padding: 0;
+}
+
+.cleaner
+{
+	clear: both;
+	height: 1px;
+	font-size: 1px;
+	border: none;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+}
+
+#clear
+{
+	margin: 0;
+	padding: 0;
+}
+
+#cost
+{
+	font-size: 16pt;
+	display: none;
+}
+
+#copyright
+{
+	text-align: center;
+	font-size: 8pt;
+}
+
+#login INPUT, #login SPAN
+{
+	text-align: left;
+	font-size: 18px;
+}
+
+#login SPAN
+{
+	padding-left: 45px;
+	height: 40px;
+	line-height:40px;
+	vertical-align: middle;
+}
+
+.Input
+{
+	background: url('../img/middle-input.gif') 0 0 repeat-x;
+	width: 100%;
+	border: none;
+	height: 24px;
+	padding: 0;
+}
+
+.InputLeft
+{
+	background: url('../img/left-input.gif') left top no-repeat;
+}
+
+.InputRight
+{
+	background: url('../img/right-input.gif') right top no-repeat;
+}
+
+.InputRight INPUT
+{
+	padding: 0px 20px;
+	line-height: normal;
+	border: none;
+	height: 24px;
+	background: none;
+	font-family: Georgia, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+}
+
+#middle COL
+{
+	width: 50%;
+}
+
+#middle table tr, #middle table tr td, #middle table tr th
+{
+	vertical-align: middle;
+}
+
+#middle table tr td, #middle table tr th
+{
+	padding: 5px;
+}
+
+#middle span a, #middle span input, #button a, #button input
+{
+	width: 94px;
+	height: 21px;
+	line-height:21px;
+	border: none;
+	color: #E4D6CD;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	background: url(../img/button_small.gif);
+}
+
+#middle span a:hover, #middle span input:hover, #button a:hover, #button input:hover
+{
+	color: #FFF;
+	background: url(../img/button_small.gif) 0 -21px;
+}
+
+#middle span a:active, #middle span input:active, #button a:active, #button input:active
+{
+	color: #FFF;
+	background: url(../img/button_small.gif);
+}
+
+/* Добавляем вид кнопки к боковым полям шаблона */
+#left span a, #left span input, #button a, #button input
+{
+	width: 94px;
+	height: 21px;
+	line-height:21px;
+	border: none;
+	color: #E4D6CD;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	background: url(../img/button_small.gif);
+}
+
+#left span a:hover, #left span input:hover, #button a:hover, #button input:hover
+{
+	color: #FFF;
+	background: url(../img/button_small.gif) 0 -21px;
+}
+
+#left span a:active, #left span input:active, #button a:active, #button input:active
+{
+	color: #FFF;
+	background: url(../img/button_small.gif);
+}
+#right span a, #right span input, #button a, #button input
+{
+	width: 94px;
+	height: 21px;
+	line-height:21px;
+	border: none;
+	color: #E4D6CD;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	background: url(../img/button_small.gif);
+}
+
+#right span a:hover, #right span input:hover, #button a:hover, #button input:hover
+{
+	color: #FFF;
+	background: url(../img/button_small.gif) 0 -21px;
+}
+
+#right span a:active, #right span input:active, #button a:active, #button input:active
+{
+	color: #FFF;
+	background: url(../img/button_small.gif);
+}
+
+.captha
+{
+	width: 150px;
+	min-width: 150px;
+}
+
+.captha IMG
+{
+	vertical-align: middle;
+	border: none;
+}
+
+.comm
+{
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	vertical-align: middle;
+	text-align : justify;
+	padding : 5px;
+	border-bottom : 1px dashed white;
+	border-left : 1px dashed gray;
+	border-right : 1px dashed gray;
+	border-top : 1px dashed white;
+	width : 10%;
+}
+
+#icon
+{
+	height: 32px;
+	width: 32px;
+}
+
+#error
+{
+	margin: 0 auto;
+	text-align : center;
+}
+
+#male
+{
+	color: #5C87D2;
+}
+
+#female
+{
+	color: #e0d098;
+}
+
+.w100	{ width: 100% !important }
+.w50	{ width: 50% !important; }
+.w25	{ width: 25% !important; }
+.w75	{ width: 75% !important; }
+.w33	{ width: 33% !important; }
+
+.blockContent
+{
+	background: #1F1D1F;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+* HTML .contentBlock
+{
+	width: 100%;
+}
+
+.contentBlock H5, .contentBlock P
+{
+	margin: 5px 0px;
+}
+
+.contentBlock P
+{
+	margin-bottom: 10px;
+}
+
+.niceTable
+{
+	width: 100%;
+}
+
+.niceTable COL
+{
+	width: 50%;
+}
+
+.niceTable TD
+{
+	border-top: 1px solid #635c3a;
+}
+
+.niceTable .right
+{
+	border-right: 1px solid #635c3a;
+}
+
+.niceTable #not
+{
+	border-top: 0px;
+}
+
+.niceTable TD, .niceTable TH
+{
+	padding: 4px 10px;
+}
+
+.niceTable .hl
+{
+	background-color: #23304b;
+}
+
+dl {
+	position: relative;
+	width: 500px;
+}
+dt {
+	clear: both;
+	float:left;
+	width: 20%;
+	padding: 4px 0 2px 0;
+	text-align: left;
+}
+dd {
+	float: left;
+	margin: 0 0 8px 0;
+	padding-left: 6px;
+}
+
+.hint {
+	display: none;
+	position: absolute;
+	right: -120px;
+	width: auto;
+	margin-top: -30px;
+	padding: 10px 12px;
+	color: #ffffff;
+	background: #35415B url(../img/pointer.gif) no-repeat -10px 5px;
+}
+
+
+.hint .hint-pointer {
+	position: absolute;
+	left: -10px;
+	top: 5px;
+	width: 10px;
+	height: 19px;
+	background: url(../img/pointer.gif) left top no-repeat;
+}
+
+#tooltip{
+color:#fff;
+font:normal 9pt Verdana, Arial;
+margin-left:20px;
+padding:3px 5px;
+position:absolute;
+-khtml-opacity:0.9;
+-moz-opacity:0.9;
+opacity:0.9;
+filter:alpha(opacity=90);
+visibility:hidden;
+}
+
+#signs table tr td
+{
+	padding: 0;
+}
+
+#signs table tr, #signs table tr td
+{
+	vertical-align: top;
+}
+
+#signs tr td .Style2, #signs tr td .Style12
+{
+	vertical-align: middle;
+	text-align: center;
+}
+
+#signs tr .Style0
+{
+	vertical-align: bottom;
+}
+
+.Style1
+{
+	margin: 18px 0px 0px 54px;
+}
+
+.Style2
+{
+	background: url(../img/ssqViewimg1.gif) no-repeat;
+	color: #fff;
+	font-size: 10px;
+}
+
+.Style3
+{
+	margin: 3px 0px 0px 10px;
+}
+
+.Style4
+{
+	margin: 27px 0px 0px 22px;
+}
+
+.Style5
+{
+	margin: 21px 0px 0px 22px;
+}
+
+.Style6
+{
+	font-size: 11px;
+	color: #000;
+}
+
+.Style7
+{
+	margin: 0px 6px 5px 0px;
+}
+
+.Style8
+{
+	margin-top: 10px;
+}
+
+.Style9
+{
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.Style11
+{
+	background: url(../img/ssqViewBg.jpg) top no-repeat;
+	width: 569px;
+	height: 255px;
+}
+
+.Style12
+{
+	font-size: 11px;
+	color: #fff;
+}
