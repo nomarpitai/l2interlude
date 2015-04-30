@@ -4,9 +4,9 @@
 		<?= criaWidget("Top 5 PVP", "Teste") ?>	
 	</div>
 	<div class="col-md-7">
-		<?= criaHeaderContainer("Conteudo")?>
+		<?= criaWidget("Conteudo", $conteudo) ?>
 	</div>
 	<div class="col-md-3">
-		<?= criaHeaderContainer("Menu2")?>
+		<?= criaWidget("Menu2", "Teste 2") ?>
 	</div>
 </div>
